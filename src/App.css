@@ -1,30 +1,29 @@
 .App {
+  padding: auto;
+  margin: 0 800px 0 500px;
   text-align: center;
-  display: flex;
+  display: inline-block;
   justify-content: center;
-  align-items: center;
 }
 
 .image{
-  position: absolute;
+  justify-content: center;
   width: 317px;
   height: 317px;
-  left: 116px;
-  top: 44px;
   border-radius: 10px 10px 0px 0px;
 }
 .header{
-  position: absolute;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
   width: 317px;
   height: 399px;
-  left: 116px;
-  top: 361px;
 
   background: #1A1B21;
 }
 .h1{
   color: #FFFFFF;
-  margin: 10px 0 10px 0;
+  margin: 0px 0 10px 0;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -155,4 +154,38 @@
 
 
   color: #DCDCDC;
+}
+
+.footer{
+  width: 317px;
+  height: 64px;
+
+
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.footer img{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  width: 40px;
+  height:auto;
+  background: #918E9B;
+}
+.buttons{
+  display: inline-block;
+}
+.buttons img{
+  display: inline-block;
+  width: 15px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.container{
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
 }
